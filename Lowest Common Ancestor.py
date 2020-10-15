@@ -9,8 +9,8 @@ class Node:
        
     def __init__(self, key): 
         self.key = key  
-        self.left = None
         self.right = None
+        self.left = None
       
 
 def findLCA(root, n1, n2): 
